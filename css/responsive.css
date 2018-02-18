@@ -1,0 +1,50 @@
+@media all and (min-width: 1170px) {
+    #main-header {
+         height: 100vh;
+    }
+    
+    .text {
+        top: 40%;
+        margin-left: 55px;
+    }
+}
+
+@media all and (max-width: 1170px) {
+    #main-header {
+        background-image: url(../img/man-2.jpg);
+        height: 70vh;
+        
+    }
+    
+    .text {
+        top: 0;
+        right: 0;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    
+}
+
+@media all and (max-width: 992px) {
+    #main-header {
+        background-image: url(../img/man-1.jpg);
+        height: 50vh;
+        text-align: center;
+        
+    }
+    
+    .text {
+        position: fixed;
+        top: 50%;        
+        color: black;
+        right: 25%;
+        margin-right: 0;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+}
